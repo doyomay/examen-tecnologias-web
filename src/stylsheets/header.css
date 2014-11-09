@@ -1,0 +1,35 @@
+/*================= Modulo Header  =========================*/
+.Logo {
+  background: #f00;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Menu {
+  background: color_principal;
+}
+.Menu-busqueda {
+  background: color_busqueda;
+  border: 1px solid color_busqueda_borde;
+  color: color_header_letras;
+  height: 1.7em;
+  outline: none;
+  width: 100%;
+}
+.Menu-contenedor {
+  position: relative;
+}
+.Menu-item {
+  display: inline-block;
+  list-style: none;
+  margin: 0 25px;
+  padding: 0.5em;
+  vertical-align: middle;
+}
+.Menu-link {
+  color: color_header_letras;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 1.5em 1em;
+}

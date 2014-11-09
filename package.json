@@ -1,0 +1,24 @@
+{
+  "name": "Configuracion_basica_Genotipo",
+  "version": "1.0.0",
+  "description": "Archivos base para un proyecto en Genotipo con stylus, bower, coffe script y php",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stylus"
+  ],
+  "author": "Gerardo May",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-stylus": "^0.20.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-injector": "^0.5.4",
+    "grunt-wiredep": "^1.9.0"
+  }
+}
