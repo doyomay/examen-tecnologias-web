@@ -3,7 +3,7 @@
 	display inline-block
 	margin 0 8px 0 0
 	padding 12px 12px 25px 12px
-	width 22%
+	width 21.5%
 	&:last-child
 		margin-right 0
 	&-figure
@@ -11,6 +11,8 @@
 		padding 0
 	&-imagen
 		width 100%
+	&-link
+		display none
 	&-texto
 		color color_letras
 		font-size 1em
@@ -50,3 +52,61 @@
 	margin 13px 0
 	text-align center
 	width 100%
+
+/****************** Media Querys  ****************/
+
+/*================= Diseño movil ===========================*/
+@media screen and (max-width 991px)	
+	.Articulo
+		display block
+		margin 10px 0 
+		padding 15px 0
+		position relative
+		width 100%
+		&-figure
+			display block
+			margin 0 auto
+			margin-bottom 10px
+			padding 0
+			vertical-align top
+			width 80%
+		&-link
+			display block
+			height 100%
+			position absolute
+			width 100%
+		&-texto
+			display block
+			margin 0 auto
+			width 80%
+	.Bienvenida
+		&-contenido
+			display block
+			width 100%		
+		&-titulo
+			text-align center			
+	.Footer
+		margin-bottom 60px
+	.Imagenes
+		display block
+		width 100%
+		&-imagen
+			margin 0
+			width 23%
+	.Menu
+		&-contenedor
+			padding 0
+		&-item
+			margin-left 5px
+			display block
+			float none !important
+	.u-link
+		display none
+@media screen and (min-width 992px) and (max-width 1200px)
+	.Articulo
+		margin 0
+		width 45%
+	.Menu
+		&-item
+			margin 0 10px
+			float none !important
